@@ -64,49 +64,24 @@ class ViewController: UIViewController {
     }
     
     @IBAction func tabDivide(_ sender: UIButton) {
-        
-//        if !displayString.isEmpty {
-//            self.currentOperation = .Divide
-//        }
         self.operation(oper: .Divide)
         
     }
     
     @IBAction func tabMultiply(_ sender: UIButton) {
-//        if !displayString.isEmpty {
-//            self.currentOperation = .Multiply
-//
-//        }
-        
         self.operation(oper: .Multiply)
     }
     
     @IBAction func tabSubtarct(_ sender: UIButton) {
-//        if !displayString.isEmpty {
-//            self.currentOperation = .Subtract
-//        }
         self.operation(oper: .Subtract)
     }
     
     
     @IBAction func tabAdd(_ sender: UIButton) {
-        
-//        if !displayString.isEmpty {
-//            self.currentOperation = .Add
-//
-//        }
         self.operation(oper: .Add)
     }
     
     @IBAction func tabEqual(_ sender: UIButton) {
-        
-//        if !self.displayString.isEmpty, !firstOperString.isEmpty, !secondOperString.isEmpty {
-            
-//            self.secondOperString = displayString
-//            self.firstOperString = Double(firstOperString)
-//            self.secondOperString = Double(secondOperString)
-//        }
-        
         self.operation(oper: self.currentOperation)
     }
     
