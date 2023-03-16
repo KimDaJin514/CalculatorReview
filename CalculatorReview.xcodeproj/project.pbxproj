@@ -13,6 +13,7 @@
 		CE3E3DC229C162340047B8E8 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = CE3E3DC029C162340047B8E8 /* Main.storyboard */; };
 		CE3E3DC429C162360047B8E8 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = CE3E3DC329C162360047B8E8 /* Assets.xcassets */; };
 		CE3E3DC729C162360047B8E8 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = CE3E3DC529C162360047B8E8 /* LaunchScreen.storyboard */; };
+		CE3E3DCF29C1C0F00047B8E8 /* RoundButton.swift in Sources */ = {isa = PBXBuildFile; fileRef = CE3E3DCE29C1C0F00047B8E8 /* RoundButton.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -24,6 +25,7 @@
 		CE3E3DC329C162360047B8E8 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		CE3E3DC629C162360047B8E8 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		CE3E3DC829C162360047B8E8 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		CE3E3DCE29C1C0F00047B8E8 /* RoundButton.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RoundButton.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -63,6 +65,7 @@
 				CE3E3DC329C162360047B8E8 /* Assets.xcassets */,
 				CE3E3DC529C162360047B8E8 /* LaunchScreen.storyboard */,
 				CE3E3DC829C162360047B8E8 /* Info.plist */,
+				CE3E3DCE29C1C0F00047B8E8 /* RoundButton.swift */,
 			);
 			path = CalculatorReview;
 			sourceTree = "<group>";
@@ -138,6 +141,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				CE3E3DCF29C1C0F00047B8E8 /* RoundButton.swift in Sources */,
 				CE3E3DBF29C162340047B8E8 /* ViewController.swift in Sources */,
 				CE3E3DBB29C162340047B8E8 /* AppDelegate.swift in Sources */,
 				CE3E3DBD29C162340047B8E8 /* SceneDelegate.swift in Sources */,
